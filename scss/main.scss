@@ -82,12 +82,10 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    position: absolute;
     width: 100%;
     z-index: -10;
-    height: 100vh;
     top: 0;
-
+    filter: brightness(75%);
     & .header-boxes-wrapper {
         padding-top:25vh;
     }
@@ -106,6 +104,14 @@ main {
         font-weight:700;
     }
 
+}
+
+.ugb-blog-posts.ugb-blog-posts--v2.ugb-blog-posts--design-basic .ugb-blog-posts__excerpt {
+    font-size:16px;
+}
+
+.ugb-container.ugb-container--v2>.ugb-inner-block>.ugb-block-content>.ugb-container__wrapper {
+    box-shadow:none !important;
 }
 
 .container-fluid {
@@ -151,7 +157,7 @@ main {
 }
 
 .fullpage-content {
-    padding-top:50px;
+    padding-top:25px;
     min-width:500px;
     width:100%;
     & .col-6 {
@@ -379,13 +385,18 @@ p {
 
 }
 
+.test123 {
+    width: 75%;
+    margin: 0 auto;
+}
+
 #mega-menu-wrap-header-menu {
     background-color:snow;
 }
 
 .first-page-wrapper {
     width:100%;
-    margin-top:100vh;
+    // margin-top:100vh;
     background-color:snow;
     min-height:100%;
     z-index:10;
@@ -397,21 +408,53 @@ p {
     margin:0 auto;
     margin-top:75px;
     position: relative;
-    padding:50px;
+    // padding:50px;
     z-index:10;
+}
+#advgb-cols-63d89435-5bb2-4107-a6f2-accb39e9b9e6 {
+    width:50%;
+    margin:0 auto;
+}
+
+.advgbbtn-07206db4-2fda-40db-af95-ad93e8c3005c .advgbbtn-013552c0-85fc-41f8-bd5f-66c7d8fc5135 {
+    
+}
+
+.wp-block-advgb-button .wp-block-advgb-button_link {
+    background-color:transparent;
+    border-width:4px !important;
+    font-family: $primary-font;
+
 }
 
 .first-page-content {
-    max-width:960px;
+    // max-width:960px;
     display:block;
     margin:0 auto;
     position: relative;
-    padding:75px;
+    // padding:75px;
     z-index:10;
     line-height: 27px;
-
+    video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+ 
 }
-
+.ugb-container.ugb-container--v2>.ugb-inner-block>.ugb-block-content>.ugb-container__wrapper {
+    background-color:transparent !important;
+}
+.startpage-buttons {
+    left: 0;
+    right: 0;
+    position: absolute;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    top: 25vh;
+    color:white;
+}
 .footer {
     padding: 35px 0;
     font-size: 85%;
@@ -447,6 +490,14 @@ p {
 	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
+.ugb-container__side .ugb-container__content-wrapper h1 {
+    font-size:52px;
+}
+
+.ugb-blog-posts.ugb-blog-posts--v2.ugb-blog-posts--design-basic .ugb-blog-posts__title {
+    text-decoration:underline;
+    font-size:2em;
+}
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
@@ -464,18 +515,27 @@ p {
     }
     .fullpage-image {
         display: block;
-        background: url(../img/mobile-strand.jpg) no-repeat center center fixed;
-        filter: brightness(1);
+        background: url(../img/startpage.jpg) no-repeat center center fixed;
+        // filter: brightness(1);
         background-size: cover;
         width: 100%;
         z-index: -10;
         height: 100vh;
         top: 0;
         padding-top:75px;
+        video {
+            display:none;
+        }
     }
 
     .videoTag {
         display:none;
+    }
+    main {
+        top:0;
+    }
+    section {
+        margin-top:50px;
     }
 
     .header-boxes-wrapper {
@@ -502,7 +562,9 @@ p {
         min-width:0px !important;
     }
 
-
+    .ugb-container__content-wrapper h1 {
+        font-size:32px !important;
+    }
     .header-boxes-wrapper {
         margin-top:15vh;
     }
@@ -521,7 +583,7 @@ p {
         display: block;
         margin: 0 auto;
         position: relative;
-        padding: 25px;
+        // padding: 25px;
         z-index: 10;
         line-height: 27px;
     }
@@ -530,7 +592,11 @@ p {
             font-size:2em;
         }
     }
+    .ugb-container.ugb-container--v2.ugb-container--width-small .ugb-container__content-wrapper {
+        width:90% !important;
+    }
 }
+
 @media only screen and (max-width:480px) {
 
     .container-fluid {
