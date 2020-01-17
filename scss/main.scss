@@ -507,9 +507,7 @@ p {
 }
 
 @media only screen and (max-width:1024px) {
-    .search {
-        display:none !important;
-    }
+ 
     .container-fluid {
         width:85% !important;
     }
@@ -597,6 +595,11 @@ p {
     }
 }
 
+@media only screen and (max-width:1375px) {
+    .search {
+        display:none !important;
+    }
+}
 @media only screen and (max-width:480px) {
 
     .container-fluid {

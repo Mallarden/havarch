@@ -463,10 +463,6 @@ p {
     RESPONSIVE
 \*------------------------------------*/
 @media only screen and (max-width: 1024px) {
-  .search {
-    display: none !important;
-  }
-
   .container-fluid {
     width: 85% !important;
   }
@@ -551,6 +547,11 @@ p {
 
   .ugb-container.ugb-container--v2.ugb-container--width-small .ugb-container__content-wrapper {
     width: 90% !important;
+  }
+}
+@media only screen and (max-width: 1375px) {
+  .search {
+    display: none !important;
   }
 }
 @media only screen and (max-width: 480px) {
