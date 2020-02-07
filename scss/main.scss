@@ -456,7 +456,7 @@ p {
     color:white;
 }
 .footer {
-    padding: 35px 0;
+    // padding: 35px 0;
     font-size: 85%;
     z-index: -1;
     left: 0;
@@ -470,6 +470,11 @@ p {
 
 .copyright {
     color:white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 .nyhetsbrev_title {
@@ -513,7 +518,7 @@ p {
     }
     .fullpage-image {
         display: block;
-        background: url(../img/startpage.jpg) no-repeat center center fixed;
+        background: url(../img/mobile-strand.jpg) no-repeat center center fixed;
         // filter: brightness(1);
         background-size: cover;
         width: 100%;
