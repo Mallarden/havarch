@@ -473,7 +473,7 @@ p {
 
   .fullpage-image {
     display: block;
-    background: url(../img/mobile-strand.jpg) no-repeat center center fixed;
+    background: url(../img/mobile-strand.png);
     background-size: cover;
     width: 100%;
     z-index: -10;
