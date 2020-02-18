@@ -3,8 +3,8 @@
 
 				<!-- copyright -->
 				<p class="copyright" style="text-align:center;">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//brightwood.design" title="">Brightwood</a>.
+					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Made By', 'html5blank'); ?>
+					<a style="color:White;" href="//brightwood.design" title="">&nbspBrightwood</a>.
 				</p>
 				<!-- /copyright -->
 

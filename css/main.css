@@ -290,6 +290,10 @@ section {
   background: none;
 }
 
+p {
+  margin-bottom: 0;
+}
+
 .boka-tvattstuga {
   padding-top: 100px;
   height: 100vh;
