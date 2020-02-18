@@ -322,6 +322,10 @@ section {
   font-size: 2em;
 }
 
+.ugb-blog-posts.ugb-blog-posts--v2 .ugb-block-content {
+  grid-row-gap: 10px;
+}
+
 #fbuilder .captcha img {
   width: 100% !important;
 }

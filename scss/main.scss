@@ -326,23 +326,6 @@ section {
 
 }
 
-// #mega-menu-item-51 a {
-//     pointer-events : none !important;
-//     cursor: pointer;
-// }
-
-// #mega-menu-item-39 a {
-//     pointer-events : none !important;
-// }
-
-// #mega-menu-item-39:hover {
-//     cursor:pointer;
-// }
-
-// #mega-menu-item-51:hover  {
-//     cursor:pointer;
-// }
-
 #fbuilder .ui-datepicker-inline {
     max-width:100% !important;
 }
@@ -351,6 +334,10 @@ section {
     width:100% !important;
     height:35px !important;
     font-size:2em;
+}
+
+.ugb-blog-posts.ugb-blog-posts--v2 .ugb-block-content {
+    grid-row-gap: 10px;
 }
 
 #fbuilder .captcha img {
