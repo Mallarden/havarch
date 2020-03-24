@@ -252,6 +252,10 @@ section {
   font-family: "Montserrat", sans-serif;
 }
 
+.ugb-blog-posts.ugb-blog-posts--v2 .ugb-blog-posts__meta > :not(.ugb-blog-posts__sep) {
+  color: white;
+}
+
 .mega-sub-menu li {
   padding-top: 10px;
 }
@@ -414,6 +418,10 @@ p {
   background-color: transparent !important;
 }
 
+.ugb-blog-posts.ugb-blog-posts--v2.ugb-blog-posts--design-basic .ugb-blog-posts__title {
+  text-underline-position: under;
+}
+
 .startpage-buttons {
   left: 0;
   right: 0;
@@ -425,15 +433,22 @@ p {
   color: white;
 }
 
+.wp-block-image.is-resized {
+  display: block;
+}
+
 .footer {
   font-size: 85%;
   z-index: -1;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 150px;
+  height: 75px;
   display: block;
   background: #2A2A2A;
+}
+.footer p {
+  margin-bottom: 0;
 }
 
 .copyright {
