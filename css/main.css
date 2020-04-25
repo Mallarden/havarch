@@ -294,10 +294,6 @@ section {
   background: none;
 }
 
-p {
-  margin-bottom: 0 !important;
-}
-
 .boka-tvattstuga {
   padding-top: 100px;
   height: 100vh;
@@ -306,6 +302,14 @@ p {
 
 .ui-datepicker {
   margin: 0 !important;
+}
+
+#responsive-menu-item-2201, #responsive-menu-item-2198, #responsive-menu-item-2171, #responsive-menu-item-2144 {
+  pointer-events: none !important;
+}
+
+.responsive-menu-subarrow {
+  pointer-events: all !important;
 }
 
 .section-title {

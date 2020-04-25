@@ -32,7 +32,7 @@
 			<header class="header clear" role="banner">
 					<div class="col-12" style="display:flex;">
 					<!-- logo -->
-					<div class="col-3">
+					<div class="col-2">
 						<div class="logo" style="display:flex;">
 							<a href="<?php echo home_url(); ?>">
 							<img src="<?php echo get_bloginfo( 'template_directory' ); ?>/img/strandpipe.png" type='image/png' class="strandpipa fadeIn" />
@@ -49,14 +49,14 @@
 							?>
 						</div>
 					</div>
-					<div class="col-6">
+					<div class="col">
 							<!-- nav -->
 							<nav class="nav" role="navigation">
 								<?php html5blank_nav(); ?>
 							</nav>
 							<!-- /nav -->
 						</div>
-					<div class="col-3 user_text">
+					<div class="col-2 user_text">
 						
 
 						<div>
