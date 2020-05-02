@@ -30,7 +30,6 @@
 		<div class="wrapper">
 
 			<!-- header -->
-<<<<<<< HEAD
 			<!-- <header class="header clear" role="banner">
 					<div class="col-12">
 						<div class="x-image image-bold">
@@ -38,43 +37,6 @@
 						</div>
 						<div class="x-image image-stroke">
 							<img src="<?php echo get_bloginfo( 'template_directory' ); ?>/img/havarch-stroke.png" type='image/png' class="strandpipa fadeIn" />
-=======
-			<header class="header clear" role="banner">
-					<div class="col-12" style="display:flex;">
-					<!-- logo -->
-					<div class="col-2">
-						<div class="logo" style="display:flex;">
-							<a href="<?php echo home_url(); ?>">
-							<img src="<?php echo get_bloginfo( 'template_directory' ); ?>/img/strandpipe.png" type='image/png' class="strandpipa fadeIn" />
-							</a>
-							<!-- /logo -->
-							<?php
-								$current_user = wp_get_current_user();
-								echo do_shortcode( '[um_loggedin] <h2>Inloggad som [/um_loggedin]' ); ?>
-								<?
-								printf( __( '%s', 'textdomain' ), esc_html( $current_user->user_firstname ) );
-								// printf( __( 'User email: %s', 'textdomain' ), esc_html( $current_user->user_email ) ) . '<br />';
-								printf( __( '%s', 'textdomain</h2>' ), esc_html( $current_user->user_lastname ) );
-
-							?>
-						</div>
-					</div>
-					<div class="col">
-							<!-- nav -->
-							<nav class="nav" role="navigation">
-								<?php html5blank_nav(); ?>
-							</nav>
-							<!-- /nav -->
-						</div>
-					<div class="col-2 user_text">
-						
-
-						<div>
-							<form class="search" method="get" style="display:flex;float:right;"action="<?php echo home_url(); ?>" role="search">
-								<input class="search-input" type="search" name="s" placeholder="<?php _e( 'Sök', 'html5blank' ); ?>">
-								<button class="search-submit" type="submit" role="button"><?php _e( '<i class="fas fa-search" style="font-size:1.5em;"></i>', 'html5blank' ); ?></button>
-							</form>
->>>>>>> 64874a4efb3f11037f331be7abb4989697444fd1
 						</div>
 					</div>
 			</header> -->
