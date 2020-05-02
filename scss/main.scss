@@ -20,6 +20,7 @@ h2 {
 #primary {
     width: 98%;
     margin: 0 auto;
+<<<<<<< HEAD
     img {
         width:100%;
     }
@@ -47,6 +48,129 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
                 }
             }
         }
+=======
+    text-align: center;
+    margin-top:10px;
+    font-family:$primary-font;
+
+}
+
+.ugb-blog-posts.ugb-blog-posts--v2 .ugb-blog-posts__meta>:not(.ugb-blog-posts__sep) {
+    color:white;
+}
+
+.mega-sub-menu li {
+    padding-top:10px;
+}
+
+#mega-menu-wrap-header-menu {
+    margin:0 auto;
+}
+
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item > a.mega-menu-link {
+    font-size:1.1em;
+}
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link {
+    font-size:14px;
+}
+
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link {
+    background:snow;
+}
+
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link {
+    background:transparent;
+    text-decoration: underline;
+    text-underline-position: under;
+    color:black;
+    &:after {
+        background:none;
+    }
+}
+
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item > a.mega-menu-link:hover {
+    background:#333;
+    color:white;
+    &:after {
+        background:none;
+    }
+} 
+
+.boka-tvattstuga {
+    padding-top:100px;
+    height: 100vh;
+    background-color: white;
+}
+
+.ui-datepicker {
+    margin:0 !important;
+}
+
+#responsive-menu-item-2201, #responsive-menu-item-2198, #responsive-menu-item-2171, #responsive-menu-item-2144 {
+    pointer-events:none !important;
+}
+
+.responsive-menu-subarrow {
+    pointer-events:all !important;
+}
+
+.section-title {
+    font-size:24px;
+    font-weight:700;
+}
+
+.cpp_form {
+    width:25%;
+    max-width:700px;
+    min-width:350px;
+    margin:0 auto;
+    
+
+}
+
+#fbuilder .ui-datepicker-inline {
+    max-width:100% !important;
+}
+
+#email_1 {
+    width:100% !important;
+    height:35px !important;
+    font-size:2em;
+}
+
+.ugb-blog-posts.ugb-blog-posts--v2 .ugb-block-content {
+    grid-row-gap: 10px;
+}
+
+#fbuilder .captcha img {
+    width:100% !important;
+}
+
+#hdcaptcha_cp_appbooking_post_1 {
+    width:100% !important;
+    height:35px !important;
+    font-size:2em;
+}
+
+
+p {
+    font-size:$p-normal;
+}
+
+.strandpipa {
+    min-width:80px;
+    width:80px;
+    margin-top:5px;
+}
+
+.scroll-symbol {
+    width:30px;
+    margin:0 auto;
+    margin-top:-20px;
+    & i {
+        font-size:4em;
+        color:#F7F7F7;
+>>>>>>> 64874a4efb3f11037f331be7abb4989697444fd1
     }
 }
 a {
@@ -66,6 +190,7 @@ a {
     width:100%;
     z-index:100;
 }
+<<<<<<< HEAD
 .small-text-startpage {
     text-align:center;
     padding:50px 0px 50px 0px;
@@ -75,6 +200,52 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+=======
+
+.ugb-container.ugb-container--v2>.ugb-inner-block>.ugb-block-content>.ugb-container__wrapper {
+    background-color:transparent !important;
+}
+
+.ugb-blog-posts.ugb-blog-posts--v2.ugb-blog-posts--design-basic .ugb-blog-posts__title {
+    text-underline-position: under;
+}
+.startpage-buttons {
+    left: 0;
+    right: 0;
+    position: absolute;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    top: 25vh;
+    color:white;
+}
+.wp-block-image.is-resized {
+    display:block;
+}
+.footer {
+    // padding: 35px 0;
+    font-size: 85%;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height:75px;
+    display:block;
+    background: #2A2A2A;
+   p {
+       margin-bottom:0;
+   }
+}
+
+.copyright {
+    color:white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+>>>>>>> 64874a4efb3f11037f331be7abb4989697444fd1
 
     .copyright {
         padding:50px 0px 50px 0px;
@@ -87,9 +258,60 @@ footer {
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
+<<<<<<< HEAD
 @media only screen and (min-width:2000px) {
     .image-wrapper {
         height:75vmin;
+=======
+
+@media only screen and (min-width:320px) {
+
+}
+
+@media only screen and (max-width:1024px) {
+ 
+    .container-fluid {
+        width:85% !important;
+    }
+    .fullpage-image {
+        display: block;
+        background: url(../img/mobile-strand.png);
+        // filter: brightness(1);
+        background-size: cover;
+        width: 100%;
+        z-index: -10;
+        height: 100vh;
+        top: 0;
+        padding-top:75px;
+        video {
+            display:none;
+        }
+    }
+
+    .videoTag {
+        display:none;
+    }
+    main {
+        top:0;
+    }
+    section {
+        margin-top:50px;
+    }
+
+    .header-boxes-wrapper {
+        width:100vw;
+        height:auto;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin-top:20vh;
+        padding-top:0vh !important;
+
+        & .header-title {
+            padding-top:50px;
+        }
+        & .row {
+            padding-bottom:50px;
+        }
+>>>>>>> 64874a4efb3f11037f331be7abb4989697444fd1
     }
 }
 @media only screen and (max-width:1900px) {
@@ -108,7 +330,14 @@ footer {
 }
 @media only screen and (max-width:768px) {
 
+<<<<<<< HEAD
     
+=======
+@media only screen and (max-width:1600px) {
+    .search {
+        display:none !important;
+    }
+>>>>>>> 64874a4efb3f11037f331be7abb4989697444fd1
 }
 @media only screen and (max-width:480px) {
  
