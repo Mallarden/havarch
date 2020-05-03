@@ -38,11 +38,12 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
     display:flex;
     justify-content: space-between;
     nav .menu {
-        width: 160px;
+        width: 100%;
         ul {
             display:flex;
             list-style:none;
             justify-content: space-between;
+            padding:0;
             li {
                 &:hover {
                     text-decoration: line-through;
@@ -54,6 +55,9 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
             }
         }
     }
+}
+.entry-content-page {
+    width:100%;
 }
 a {
     color:black !important;
