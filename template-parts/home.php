@@ -19,7 +19,7 @@ get_header(); ?>
     </div>
   </div>
   <header class="header clear" role="banner">
-    <div class="col-12">
+    <div class="col-12" style="height:32vw;">
       <div class="x-image image-bold">
         <img src="<?php echo get_bloginfo( 'template_directory' ); ?>/img/havarch-bold.png" type='image/png'
           class="strandpipa fadeIn" />
