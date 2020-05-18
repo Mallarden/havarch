@@ -37,7 +37,7 @@ get_header(); ?>
     <img src="<?php echo get_template_directory_uri(); ?>/img/02-havar.jpg">
     <div class="small-text-startpage"></br></div>
     <img src="<?php echo get_template_directory_uri(); ?>/img/04-havar.jpg">
-    <div class="small-text-startpage">A small text to have on the start page</div>
+    <div style="color:lightgrey;" class="small-text-startpage"><a href="https://www.behance.net/ruznyaevart">Artem Ruznyaev</a></div>
     <img src="<?php echo get_template_directory_uri(); ?>/img/IMG_2731-2.jpg">
   </div>
 </div><!-- #primary -->
