@@ -33,9 +33,9 @@ get_header(); ?>
   <div class="image-wrapper"></div>
   <div class="image-area">
     <img src="<?php echo get_template_directory_uri(); ?>/img/01-havar.jpg">
-    <div class="small-text-startpage">A small text to have on the start page</div>
+    <div class="small-text-startpage"></br></div>
     <img src="<?php echo get_template_directory_uri(); ?>/img/02-havar.jpg">
-    <div class="small-text-startpage">A small text to have on the start page</div>
+    <div class="small-text-startpage"></br></div>
     <img src="<?php echo get_template_directory_uri(); ?>/img/04-havar.jpg">
     <div class="small-text-startpage">A small text to have on the start page</div>
     <img src="<?php echo get_template_directory_uri(); ?>/img/IMG_2731-2.jpg">
