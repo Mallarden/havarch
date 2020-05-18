@@ -5,11 +5,18 @@
 get_header(); ?>
 <div id="primary" class="content">
   <div class="top-container">
-    <nav class="nav" role="navigation">
-      <a href="#" onClick="history.back();return false;">
-        <h2>← Back</h2>
-      </a>
-    </nav>
+  <div class="top-left">
+    <h2>Havar Cemal Architecture SAR/MSA</h2>
+    <h2>Gothenburg / Sweden</h2>
+  </div>
+    <div class="top-right">
+      <h2>havarcemal@gmail.com</h2>
+      <h2 style="text-align:right;">
+        <nav class="nav" role="navigation">
+          <a href="#" onClick="history.back();return false;">← Back</a>
+        </nav>
+      </h2>
+    </div>
     </div>
     <?php
       // TO SHOW THE PAGE CONTENTS
