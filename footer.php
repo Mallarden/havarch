@@ -2,10 +2,18 @@
 			<footer class="footer" role="contentinfo">
 
 				<!-- copyright -->
+				<div class="">
+				<div>
 				<p class="copyright" style="text-align:center;">
 					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Made By', 'html5blank'); ?>
-					<a style="color:White; mb-0 mt-0" href="//brightwood.design" title="">&nbspBrightwood</a>.
+				<a style="color:White; mb-0 mt-0" href="//brightwood.design" title="">&nbspBrightwood</a>.
 				</p>
+				</div>
+					<div class="social-icons-test">
+						<a href="https://www.instagram.com/hc_arch/"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.linkedin.com/in/Havar-cemal/"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					</div>
 				<!-- /copyright -->
 
 			</footer>

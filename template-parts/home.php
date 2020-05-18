@@ -38,7 +38,7 @@ get_header(); ?>
     <div class="small-text-startpage">A small text to have on the start page</div>
     <img src="<?php echo get_template_directory_uri(); ?>/img/04-havar.jpg">
     <div class="small-text-startpage">A small text to have on the start page</div>
-    <img src="<?php echo get_template_directory_uri(); ?>/img/03-havar.jpg">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/IMG_2731-2.jpg">
   </div>
 </div><!-- #primary -->
 

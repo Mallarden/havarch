@@ -1,5 +1,5 @@
 * {
-    font-family: 'Lato', sans-serif !important;
+    // font-family: 'Lato', sans-serif !important;
 }
 .header {
     .x-image {
@@ -87,11 +87,22 @@ footer {
     right: 0;
 
     .copyright {
-        padding:50px 0px 50px 0px;
+        padding:50px 0px 0px 0px;
     }
 }
 .edit-post-visual-editor .editor-post-title__block {
     width:100%;
+}
+
+.social-icons-test {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+    width: 80px;
+    margin: 0 auto;
 }
 
 /*------------------------------------*\

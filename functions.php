@@ -135,6 +135,10 @@ function html5blank_styles()
 
     wp_register_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '1.0', 'all');
     wp_enqueue_style('bootstrap'); // Enqueue it!
+
+    wp_register_style('fontawesome', get_template_directory_uri() . '/css/fontawesome.min.css', array(), '1.0', 'all');
+    wp_enqueue_style('fontawesome'); // Enqueue it!
+
 }
 
 // Register HTML5 Blank Navigation
