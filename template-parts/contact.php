@@ -6,7 +6,9 @@ get_header(); ?>
 <div id="primary" class="content">
   <div class="top-container">
     <nav class="nav" role="navigation">
-      <a href="#" onClick="history.back();return false;"><h2 class="text-right">← Back</h2></a>
+      <a href="#" onClick="history.back();return false;">
+        <h2>← Back</h2>
+      </a>
     </nav>
     </div>
     <?php
