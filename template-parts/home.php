@@ -10,7 +10,7 @@ get_header(); ?>
       <h2>Gothenburg / Sweden</h2>
     </div>
     <div class="top-right">
-      <h2 class="text-right">havarcemal@gmail.com</h2>
+      <h2 class="text-right">hc@havarch.se</h2>
       <h2 style="text-align:right;">
         <nav class="nav" role="navigation">
           <?php html5blank_nav(); ?>
