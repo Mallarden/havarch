@@ -10,7 +10,7 @@ get_header(); ?>
     <h2>Gothenburg / Sweden</h2>
   </div>
     <div class="top-right">
-      <h2>havarcemal@gmail.com</h2>
+      <h2>hc@havarch.se</h2>
       <h2 style="text-align:right;">
         <nav class="nav" role="navigation">
           <a href="#" onClick="history.back();return false;">← Back</a>
